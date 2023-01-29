@@ -1,5 +1,5 @@
 - name: Home Linux Servers update
-  hosts: "Home Linux Servers,"
+  hosts: "Home_Linux_Servers"
   become: true
   tasks:
     - name: apt
